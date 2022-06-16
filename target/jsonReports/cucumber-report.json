@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-19T15:16:40.814Z",
+        "line": 3,
+        "name": "verify test",
+        "description": "",
+        "id": "verify-test;verify-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "url",
+            "match": {
+              "location": "Step2.url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "usl is passed",
+            "match": {
+              "location": "Step2.usl_is_passed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "receives success status code",
+            "match": {
+              "location": "StepDefinitions.receives_success_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify test",
+    "description": "",
+    "id": "verify-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/abc.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-19T15:16:40.845Z",
+        "line": 3,
+        "name": "verify addplace api adds address successfully",
+        "description": "",
+        "id": "verify-ass-place-api;verify-addplace-api-adds-address-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 836064700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "api payload  passed",
+            "match": {
+              "location": "StepDefinitions.api_payload_passed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls AddplaceApi with POST method",
+            "match": {
+              "location": "StepDefinitions.user_calls_AddplaceApi_with_POST_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "receives success status code",
+            "match": {
+              "location": "StepDefinitions.receives_success_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "received status response as ok",
+            "match": {
+              "location": "StepDefinitions.received_status_response_as_ok()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "verify ass place api",
+    "description": "",
+    "id": "verify-ass-place-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/data.feature",
+    "tags": []
+  }
+]
